@@ -46,7 +46,7 @@ int main()
 		calculadora instanc(k, a) ; 
 
 		if(oper=='+') result = instanc.soma();
-		else if(oper=='-') result =i nstanc.subtr();
+		else if(oper=='-') result = instanc.subtr();
 		else if(oper=='/') result = instanc.divid();
 		else if(oper=='*') result = instanc.multip();
 
