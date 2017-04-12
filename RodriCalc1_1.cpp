@@ -43,12 +43,12 @@ int main()
 		cin >> oper; 
 		cin >> a;
 
-		calculadora instanc(k, a) ; // cria uma instancia da classe calculadora.
+		calculadora instanc(k, a) ; 
 
-		if(oper=='+') result=instanc.soma();
-		else if(oper=='-') result=instanc.subtr();
-		else if(oper=='/') result=instanc.divid();
-		else if(oper=='*') result=instanc.multip();
+		if(oper=='+') result = instanc.soma();
+		else if(oper=='-') result =i nstanc.subtr();
+		else if(oper=='/') result = instanc.divid();
+		else if(oper=='*') result = instanc.multip();
 
 		cout << result;
 		cout << "\n";
